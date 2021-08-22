@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="row py-5 px-5 mb-5 hondabg d-flex justify-content-evenly align-items-center">
+        <!-- image add -->
+        <div class="col-6">
+            <img class="img-fluid" src="images/mac.png" alt="">
+        </div>
+          <div class="col-6">
+            <!-- product detailse -->
+            <p class="fs-1 fw-bold">Customize your Blue 24-inch <br>iMac with Apple M1 chip.</p>
+            <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU,and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard English
+
+            </p>
+            <!-- memory section -->
+            <h3>Memory</h3>
+            
+            <button  id="memory8gb" class="memory">8GB unifield Memory</button>
+             <button  id="memory16gb" class="memory">16GB unifield Memory</button>
+            <br><br>
+            <!-- storage section -->
+            
+            <h3>Storage</h3>
+            
+            <button  id="freeStorage" class="storage">256GB SSD Storage</button> 
+            <button  id="storage512" class="storage">512GB SSD Storage</button>
+            <button  id="storageItb" class="storage">ITB  SSD Storage</button>
+
+            <br><br>
+            <!-- delivery section -->
+            <h3>Choose your Delivery Option</h3>
+            
+            <button  class="delivery" id="freeDelivery">Friday,Aug 25 FREE prime Delivery</button> 
+            <button  id="deliveryWithCharge" class="delivery">Friday,Aug 21 Delivery Charge $20</button>
+
+            <div class="cart-item mt-3">
+                <div class="row">
+            <!-- detailse cost -->
+                   <div class="col-md-4">
+                      <h5>Best Price </h5>
+                      <h5>Extra Memory Cost</h5>
+                      <h5>Extra Storage Cost</h5>
+                      <h5>Delivery Charge</h5>
+                      <hr>
+                      <h5>Total Price</h5>
+
+                   </div>
+            <!-- total-Price -->
+                   <div class="col-md-8 status">
+                      <h5>$<span id="best-price">1299</span></h5>
+                      <h5>$<span id="Extra-Memory-Cost">0</span></h5>
+                      <h5>$<span id="Extra-Storage-Cost">0</span></h5>
+                      <h5>$<span id="Delivery-Charge" class="abcd">0</span></h5>
+                      <hr>
+                      <h5>$<span id="total-Price" class="abcd">1299</span></h5>
+
+                   </div>
+                   <!-- promo code  -->
+                   <div class="col-md-12 pt-4 pb-4">
+                       <input id="promoCode" class="border-0" placeholder="Add promo Code"></input>
+                    <button id="promobtnnn" type="button" class="promobtn">Apply</button>
+                </div>
+                
+             </div>
+            
+      </div>
+   </div>
+   
+   
+   <!-- diccount part -->
+   <div class="d-flex justify-content-center mt-3"><h3 class="d-flax align-items-center ">Total Price $<span id="allTotal-price">1299</span></h3></div>
+
+   
+    
+
+    
+
+
+<!-- add links -->
+
+<script src="index.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
